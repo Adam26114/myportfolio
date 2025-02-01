@@ -107,5 +107,11 @@ html[data-theme='light'] {
 }
 
 .projects-icons img {
-    @apply w-8 h-8 ;
+    @apply size-5 ;
+}
+
+
+.card-blur
+{
+    @apply relative transition-all hover:before:transition-all hover:before:absolute hover:before:top-0 hover:before:left-0 hover:before:h-full hover:before:w-full hover:before:bg-black/30 hover:before:backdrop-blur-md hover:before:rounded-[8px]
 }
